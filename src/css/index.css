@@ -92,8 +92,12 @@ nav ul{
 section{
     width: 100%;
     height: 2rem;
-    background-color: rgb(159, 207, 81);
+    /* background-color: rgb(159, 207, 81); */
     overflow: hidden;
+}
+.banUl img{
+    width: 100%;
+    height: 100%;
 }
 .banUl{
     width: 100rem;
@@ -120,7 +124,7 @@ main .shang{
 main .shang figure{
     width: 0.6rem;
     height: 0.62rem;
-    background-color: rgb(216, 90, 90);
+    /* background-color: rgb(216, 90, 90); */
     margin-right: 0.35rem;
     font-size: 0.11rem;
     padding: 0 0 2px 0;
@@ -141,15 +145,18 @@ main .shang figure figcaption{
     height: 0.85rem;
     background-color: #f8f8f8;
 }
+.fangjia img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
 
 /* xianxixinxi */
 #meizhuang{
     width: 100%;
-    background-color: #d9362e;
 }
 .jutiUl{
     width: 100%;
-    background-color: rgb(159, 245, 166);
     margin-bottom: 0.135rem;
     font-size: 0.1rem;
     display: flex;
@@ -185,7 +192,6 @@ main .shang figure figcaption{
     justify-content: center;
     align-items: space-between;
     margin-top: 0.14rem;
-    background-color: rgb(92, 145, 224);
 }
 .jutiUl .li3 figure{
     width: 1.06rem;

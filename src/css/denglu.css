@@ -1,0 +1,125 @@
+html{
+    font-size: 26.67vw;
+}
+body,html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+#box{
+    flex: 1;
+    overflow: auto;
+}
+/* 头 */
+header{
+    width: 100%;
+    height: 1.7rem;
+}
+.topT{
+    width: 100%;
+    height: 0.357rem;
+}
+.topT i{
+    font-size: 0.21rem;
+    float: left;
+    margin-top: 0.09rem;
+    margin-left: 0.13rem;
+}
+.topT span{
+    font-size: 0.19rem;
+    float: right;
+    margin-top: 0.09rem;
+    margin-right: 0.19rem;
+    padding: 1px;
+}
+.img{
+    width: 100%;
+    height: 1.35rem;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 中间 */
+ul{
+    width: 100%;
+}
+li{
+    width: 90%;
+    height: 0.53rem;
+    border-bottom: 1px solid #f4f4f4;
+    margin-left: 5%;
+}
+input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 0.13rem;
+    float: left;
+}
+.but{
+    background-color: #c03231;
+    color: #fff;
+    border-radius: 0.04rem;
+}
+.di{
+    width: 100%;
+    height: 0.58rem;
+    font-size: 0.09rem;
+    display: flex;
+    flex-wrap: wrap;
+    color: #94979d;
+    justify-content: center;
+    align-content: center;
+    border-bottom: 1px solid #f2f2f2;
+}
+.di p {
+    width: 100%;
+    text-align: center
+}
+.di span{
+    color: #3f88dc;
+}
+/* 微信登陆 */
+.weixin{
+    width: 80%;
+    height: 1.5rem;
+    margin-top: 0.76rem;
+    margin-left: 10%;
+}
+.weixin .zuo,
+.weixin .you,
+.weixin .zhong{
+    float: left;
+}
+.weixin .zuo{
+    width: 38%;
+    border-top: 1px solid rgb(235, 235, 235);
+    margin-top: 0.09rem;
+}
+.weixin .zhong{
+    width: 20%;
+    height: 100%;
+    margin-left: 2%;
+}
+.weixin .yuo{
+    width: 38%;
+    float: right;
+    border-top: 1px solid rgb(235, 235, 235);
+    margin-top: 0.09rem;
+}
+.weixin .zhong p{
+    font-size: 0.13rem;
+    text-align: center;
+    float: left;
+}
+.weixin .zhong i{
+    color: rgb(74, 228, 94);
+    font-size: 0.5rem;
+    float: left;
+    margin-top: 0.38rem;
+}
